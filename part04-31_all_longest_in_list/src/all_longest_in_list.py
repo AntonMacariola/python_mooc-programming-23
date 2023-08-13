@@ -1,6 +1,6 @@
 # Write your solution here
 def all_the_longest(my_list:list):
-    new = []
+    new_list = []
     longest = 0
 
     for i in my_list:
@@ -9,7 +9,7 @@ def all_the_longest(my_list:list):
    
     for i in my_list:
         if len(i) == longest:
-            new.append(i)
+            new_list.append(i)
             
-    return new
+    return new_list
 
